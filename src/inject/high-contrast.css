@@ -1,5 +1,10 @@
+/**
+ * !important rules are used to override the values in the Epoch Times
+ * website style sheets.
+ */
+
 body {
-  background: black;
+  background: black !important;
 }
 
 * {
@@ -7,6 +12,6 @@ body {
 }
 
 a {
-  color: inherit;
-  text-decoration: underline;
+  color: inherit !important;
+  text-decoration: underline !important;
 }

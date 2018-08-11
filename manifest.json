@@ -13,8 +13,8 @@
   "content_scripts": [
     {
       "matches": ["http://www.epochtimes.com/*"],
-      "css": ["src/inject/inject.css"],
-      "js": ["src/inject/inject.js"]
+      "css": ["src/inject/high-contrast.css"],
+      "js": ["src/inject/px-to-em.js"]
     }
   ]
 }

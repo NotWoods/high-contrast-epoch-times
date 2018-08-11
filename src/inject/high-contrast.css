@@ -15,3 +15,15 @@ a {
   color: inherit !important;
   text-decoration: underline !important;
 }
+
+.content,
+.left_column,
+.right_column,
+.single_column_container,
+.sidebar_column,
+.column,
+.article_time,
+.box,
+span {
+  background: transparent !important;
+}

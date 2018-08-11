@@ -1,0 +1,12 @@
+body {
+  background: black;
+}
+
+* {
+  color: yellow !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}

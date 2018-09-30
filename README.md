@@ -1,8 +1,11 @@
+![Epoch Times logo with high contrast colors](icons/icon.svg)
+
 # high-contrast-epoch-times
 
 Makes the Chinese mobile Epoch Times website better for accessibility.
 
 A Chrome extension to tweak my grandfather's favorite website.
+Intended to be used with the mobile version of the site.
 
 Epoch Times' website uses pixel font sizes, and as a result the font sizes
 cannot be overridden by the user. Browsers let users change the default font
@@ -13,3 +16,11 @@ these settings and show text relative to the chosen size.
 The extension automatically converts pixel `font-size` and `line-height` values
 to use `em` units instead. It also uses high contrast text colors (black
 background and yellow text) to make it easier to read.
+
+## Before
+
+![Epoch times site before changes](art/before.png)
+
+## After
+
+![Epoch times site after changes](art/after.png)

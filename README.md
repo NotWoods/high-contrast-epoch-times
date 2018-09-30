@@ -17,10 +17,7 @@ The extension automatically converts pixel `font-size` and `line-height` values
 to use `em` units instead. It also uses high contrast text colors (black
 background and yellow text) to make it easier to read.
 
-## Before
+## Before and After
 
-![Epoch times site before changes](art/before.png)
-
-## After
-
-![Epoch times site after changes](art/after.png)
+<img src="art/before.png" style="width:calc(50% - 2px)" alt="Epoch times site before changes">
+<img src="art/after.png" style="width:calc(50% - 2px)" alt="Epoch times site after changes">

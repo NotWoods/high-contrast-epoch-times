@@ -1,0 +1,33 @@
+{
+    "name": "high-contrast-epoch-times",
+    "version": "2.0.0",
+    "description": "Makes the Chinese mobile Epoch Times website better for accessibility.",
+    "license": "MIT",
+    "private": true,
+    "author": "Tiger Oakes <contact@tigeroakes.com> (https://tigeroakes.com)",
+    "repository": "NotWoods/high-contrast-epoch-times",
+    "bugs": "https://github.com/NotWoods/high-contrast-epoch-times/issues",
+    "homepage": "https://github.com/NotWoods/high-contrast-epoch-times#readme",
+    "scripts": {
+        "test": "ajv -d manifest -s chrome-extension-manifest-schema",
+        "lint:js": "prettier --parser babylon \"src/**/*.js\"",
+        "lint:css": "prettier --parser css \"src/**/*.css\"",
+        "lint": "npm run lint:js -- --write && npm run lint:css -- --write",
+        "lint:check": "npm run lint:js -- --list-different && npm run lint:css -- --list-different"
+    },
+    "devDependencies": {
+        "ajv-cli": "^3.0.0",
+        "husky": "^1.2.0",
+        "prettier": "^1.15.3"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "npm run lint"
+        }
+    },
+    "prettier": {
+        "singleQuote": true,
+        "trailingComma": "all",
+        "proseWrap": "always"
+    }
+}

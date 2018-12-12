@@ -4,16 +4,16 @@
  */
 
 body {
-  background: black !important;
+    background: black !important;
 }
 
 * {
-  color: yellow !important;
+    color: yellow !important;
 }
 
 a {
-  color: inherit !important;
-  text-decoration: underline !important;
+    color: inherit !important;
+    text-decoration: underline !important;
 }
 
 .content,
@@ -25,5 +25,5 @@ a {
 .article_time,
 .box,
 span {
-  background: transparent !important;
+    background: transparent !important;
 }

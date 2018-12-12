@@ -1,0 +1,13 @@
+{
+    "search.exclude": {
+        "**/node_modules": true,
+        "package-lock.json": true
+    },
+    "editor.formatOnSave": true,
+    "json.schemas": [
+        {
+            "fileMatch": ["manifest.json"],
+            "url": "chrome-extension-manifest-schema.json"
+        }
+    ]
+}

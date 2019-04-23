@@ -16,6 +16,12 @@ a {
     text-decoration: underline !important;
 }
 
+.newslist {
+    line-height: 1.5 !important;
+}
+
+footer,
+#bottommenu .bottom-links,
 .content,
 .left_column,
 .right_column,
